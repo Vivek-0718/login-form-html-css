@@ -1,0 +1,68 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background: #344a72;
+  font-family: 'Montserrat', sans-serif;
+
+}
+#container{
+  background: white;
+  padding: 10px 20px;
+  max-width: 360px;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 3px;
+}
+h1,p{
+  text-align: center;
+}
+
+label{
+  display: block;
+  padding-top: 20px;
+  color: rgb(99, 99, 99);
+}
+#firstName{
+  padding-top: 0;
+}
+input{
+  display: block;
+  padding: 10px;
+  width: 100%;
+  border: solid #ccc;
+  border-radius: 5px;
+  font-size: 15px;
+}
+.btn{
+  display: block;
+  margin-top: 10px;
+  width: 100%;
+  padding: 10px;
+  color: white;
+  background: #49c1a2;
+  border:none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.btn:hover{
+  background: #37a08e;
+  cursor: pointer;
+}
+.form-group .button-text{
+  font-size: small;
+}
+.form-group .button-text a{
+  color: blue;
+}
+a{
+  text-decoration: none;
+}
+footer{
+  color: white;
+  font-size: small;
+  text-align: center;
+}
+footer a{
+  color: #49c1a2;
+}
